@@ -6,7 +6,7 @@
 
   <div class="order-summary jumbotron">
   <h2>Thank you for your order <%= @current_user || 'User' %>!</h2>
-
+  <h2> Your order was sent to <%= @order.email%></h2>
   <% @order.line_items.each do |item| %>
     <%= render 'orders/item', item: item %>
   <% end %>
