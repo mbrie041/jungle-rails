@@ -3,9 +3,8 @@ Rails.application.routes.draw do
   root to: 'products#index'
   
   resources :about, only: [:index]
-
-  resources :products, only: [:index, :show]
   resources :categories, only: [:show]
+  resources :products, only: [:index, :show]
 
   resource :cart, only: [:show] do
     post   :add_item
@@ -17,6 +16,8 @@ Rails.application.routes.draw do
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
+    resources :products, only: [:index, :show]
+    resources :categories, only: [:index, :create, :new]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
