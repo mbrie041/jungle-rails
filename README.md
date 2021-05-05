@@ -2,6 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Basic Functionality
+1. When a product has 0 quantity, a sold out badge should be displayed on the product list page.
+2. Admin users can list and create new categories as well as add new products using the new category.
+3. User Authentication for visitors versus users.
+4. The order page contains items, their image, name, description, quantities and line item totals with final amount for the order displayed.
+5. Admin controllers using http_basic_authenticate.
+
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -31,3 +39,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+!["Main page "]()
