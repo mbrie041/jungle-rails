@@ -41,4 +41,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 ## Screenshots
-!["Main page "]()
+!["Main page"](https://github.com/mbrie041/jungle-rails/blob/master/Screenshots/Home-page.png?raw=true)
+!["Order Complete"](https://github.com/mbrie041/jungle-rails/blob/master/Screenshots/Order%20complete.png?raw=true)
+!["Cart"](https://github.com/mbrie041/jungle-rails/blob/master/Screenshots/checkout.png?raw=true)
+!["Pay"](https://github.com/mbrie041/jungle-rails/blob/master/Screenshots/pay.png?raw=true)
